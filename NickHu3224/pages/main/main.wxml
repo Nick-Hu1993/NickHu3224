@@ -1,0 +1,90 @@
+<!--自动滚动的banner-->
+<swiper class="swiper_banner" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!--wxml
+<view>"{{name}}"</view>
+<view bindtap="changeName">点我</view>
+-->
+<view class='line'></view>
+<!--活动头信息-->
+<view class="title" id='detail_link' bindtap="toDetailPage">
+  <view class="title_wrp">
+    <view class='title_wrp_left'>
+        <view class="title_item1">热门亲子剧</view>
+        <view class="title_item2">深圳</view>
+    </view>
+    <view class="title_wrp_right">
+        <view class="title_item3">查看更多</view>
+        <view class="title_item4"><image src="{{right_icon}}" class="icon_right"></image></view>
+    </view>
+  </view>
+</view>
+<!--活动列表信息1-->
+<view class="activity_list">
+    <view class="content_wrp">
+        <view class="img_wrp">
+            <image class='activity_img' src="{{activity_imgUrl}}"></image>
+        </view>
+        <view class="text_wrp">
+            <view class='text_item'>
+                <view class='activity_title'>{{activity_title}}</view>
+                <view class='activity_inform'>
+                    <view class='activity_time'>演出时间:{{activity_inform.time}}</view>
+                    <view class='activity_area'>演出地点:{{activity_inform.area}}</view>
+                </view>
+                <view class='activity_price'>
+                    <view class='activity_price_item1'>￥{{activity_price}}.00</view>
+                    <view class='activity_price_item2'>起</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!--活动列表信息2-->
+<view class="activity_list">
+    <view class="content_wrp">
+        <view class="img_wrp">
+            <image class='activity_img' src="http://image4.xishiqu.cn/upload/activity/117/072/20170726027/v/b/17FD3356-7923-2BB3-959F-0890E5787E5C.jpg"></image>
+        </view>
+        <view class="text_wrp">
+            <view class='text_item'>
+                <view class='activity_title'>德云红酒之夜 2017郭德纲携德云社系列相声专场—深圳站</view>
+                <view class='activity_inform'>
+                    <view class='activity_time'>演出时间:{{activity_inform.time}}</view>
+                    <view class='activity_area'>演出地点:{{activity_inform.area}}</view>
+                </view>
+                <view class='activity_price'>
+                    <view class='activity_price_item1'>￥128.00</view>
+                    <view class='activity_price_item2'>起</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!--活动列表信息3-->
+<view class="activity_list">
+    <view class="content_wrp">
+        <view class="img_wrp">
+            <image class='activity_img' src="http://image.xishiqu.cn/upload/activity/117/052/20170526034/v/b/D35AFEC9-5078-B12E-B460-C5392F11B34A.jpg"></image>
+        </view>
+        <view class="text_wrp">
+            <view class='text_item'>
+                <view class='activity_title'>北演话剧《独自温暖》吕丽萍孙海英联袂主演—深圳站</view>
+                <view class='activity_inform'>
+                    <view class='activity_time'>演出时间:{{activity_inform.time}}</view>
+                    <view class='activity_area'>演出地点:{{activity_inform.area}}</view>
+                </view>
+                <view class='activity_price'>
+                    <view class='activity_price_item1'>￥220.00</view>
+                    <view class='activity_price_item2'>起</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

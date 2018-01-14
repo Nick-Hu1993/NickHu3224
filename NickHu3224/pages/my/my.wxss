@@ -1,0 +1,70 @@
+/* pages/my/my.wxss */
+.my_banner{
+    width:100%;
+    height: 260px;
+}
+.my_banner_background{
+    width:100%;
+    height: 210px;
+    position:relative;
+}
+.my_banner_background_url{
+   width:100%;
+   height: 210px; 
+}
+.my_banner_inform{
+    font-size: 16px;
+    position:absolute; 
+    margin:0 auto;
+    left:40%; 
+    top:30%;
+}
+.my_banner_portrait_img{
+    width: 70px;
+    height: 70px;
+}
+.my_banner_text{
+    margin: 5px 60px 5px 60px;
+}
+.my_banner_text_num{
+    font-size: 16px;
+    font-weight: bold;
+    flex-direction:row;
+    display: flex;
+    justify-content:space-between;
+}
+.my_banner_text_explain{
+    font-size: 14px;
+    flex-direction:row;
+    display: flex;
+    justify-content:space-between;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: #e6e6fa;
+}
+.option_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    flex-direction:row;
+    display: flex;
+    justify-content:space-between;
+    border-bottom:1px solid #e6e6fa;
+}
+.option_item_img{
+    width: 24px;
+    height: 24px;
+    padding-top:10px;
+}
+.option_item_text{
+    font-size:18px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.option_item_icon{
+    width: 22px;
+    height: 16px;
+    padding-top:10px;
+}

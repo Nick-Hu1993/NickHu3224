@@ -1,0 +1,81 @@
+<!--pages/my/my.wxml-->
+<view class='my_banner'>
+    <view class='my_banner_background'>
+        <image src="{{my_banner_background_url}}" class="my_banner_background_url"></image>
+        <view class='my_banner_inform'>
+            <view class='my_banner_inform_item1'>
+                <image class='my_banner_portrait_img' src="{{my_banner_portrait}}"></image>
+                <view class='my_banner_inform_nickName'>前行的力量</view>
+            </view>
+        </view>
+    </view>
+    <view class="my_banner_text">
+        <view class='my_banner_text_num'>
+            <view class='my_banner_text_item1'>178</view>
+            <view class='my_banner_text_item1'>145</view>
+            <view class='my_banner_text_item1'>567</view>
+            
+        </view>
+        <view class='my_banner_text_explain'>
+            <view class='my_banner_text_item2'>收藏</view>
+            <view class='my_banner_text_item2'>关注</view>
+            <view class='my_banner_text_item2'>粉丝</view>
+        </view>
+    </view>
+</view>
+
+<view class='line'></view>
+
+<view class='option_list'>
+    <view class='option_item'>
+        <view class='option_item_left'>
+            <image class='option_item_img' src="{{option_item_img}}"></image>
+            <text class='option_item_text'>我的订单</text>
+        </view>
+        <view class='option_item_right'>
+            <image class='option_item_icon' src="{{option_item_icon}}"></image>
+        </view>
+    </view>
+    <view class='option_item'>
+        <view class='option_item_left'>
+            <image class='option_item_img' src="{{option_item_help_img}}"></image>
+            <text class='option_item_text'>问题与帮助</text>
+        </view>
+        <view class='option_item_right'>
+            <image class='option_item_icon' src="{{option_item_icon}}"></image>
+        </view>
+    </view>
+    <view class='option_item'>
+        <view class='option_item_left'>
+            <image class='option_item_img' src="{{option_item_customer_img}}"></image>
+            <text class='option_item_text'>客户中心</text>
+        </view>
+        <view class='option_item_right'>
+            <image class='option_item_icon' src="{{option_item_icon}}"></image>
+        </view>
+    </view>
+    <view class='option_item'>
+        <view class='option_item_left'>
+            <image class='option_item_img' src="{{option_item_about_img}}"></image>
+            <text class='option_item_text'>关于</text>
+        </view>
+        <view class='option_item_right'>
+            <image class='option_item_icon' src="{{option_item_icon}}"></image>
+        </view>
+    </view>
+</view>
+
+<view class='line'></view>
+
+ <view class='option_item'>
+        <view class='option_item_left'>
+            <image class='option_item_img' src="{{option_item_setting_img}}"></image>
+            <text class='option_item_text'>设置</text>
+        </view>
+        <view class='option_item_right'>
+            <image class='option_item_icon' src="{{option_item_icon}}"></image>
+        </view>
+    </view>
+
+<view class='line'></view>
+

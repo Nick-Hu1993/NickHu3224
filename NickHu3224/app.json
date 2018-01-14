@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/main/main",
+        "pages/map/map",
+        "pages/my/my",
+        "pages/logs/logs",
+        "pages/index/index",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "微信功能测试",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/main/main",
+                "text": "主页",
+                "iconPath": "images/ic_tab_home_unselected.png",
+                "selectedIconPath": "images/ic_tab_home_selected.png",
+                "selectedColor": "#ff4500"
+            },
+            {
+                "pagePath": "pages/map/map",
+                "text": "地图",
+                "iconPath": "images/ic_tab_location_unselected.png",
+                "selectedIconPath": "images/ic_tab_location_selected.png",
+                "selectedColor": "#ff4500"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "images/ic_tab_my_unselected.png",
+                "selectedIconPath": "images/ic_tab_my_selected.png",
+                "selectedColor": "#ff4500"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 5000,
+        "downloadFile": 5000
+    },
+    "debug": false
+}
