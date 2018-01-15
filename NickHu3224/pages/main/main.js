@@ -19,7 +19,7 @@ Page({
         activity_title:"2017年最强画展，你不可错过的艺术之旅，全球艺术家的盛典《毕加索 达利真迹展—深圳站》",
         activity_inform:{'time':'2017.10.20/10.30 (2场)', 'area':'深圳市少年宫剧场'},
         activity_price:"60",
-        right_icon:"images/ic_arrow_right.png"
+        right_icon:"../main/images/ic_arrow_right.png"
     },
     onShareAppMessage: function (res) {
         if (res.from === 'button') {
@@ -37,7 +37,7 @@ Page({
             }
         }
     },
-    onLoad: function (option) {
-        wx.navigateTo({url: 'detail'})
+    toDetailPage: function () {
+        wx.navigateTo({ url: '../detail/detail'})
     }
 })

@@ -1,1 +1,93 @@
 /* pages/detail/detail.wxss */
+.activity_banner{
+    height: 200px;  
+    filter: blur(7px);
+    overflow: hidden;
+}
+.activity_background_img{
+    width:100%;
+    height: 400px;
+}
+.activity_img{
+    width: 112px;
+    height: 160px;
+    position:absolute; 
+    margin:0 auto;
+    left: 35%;
+    top: 24px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: #e6e6fa;
+}
+.activity_inform{
+    height: 160px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.activity_title{
+    height: 50px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2; 
+}
+.activity_price{
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4500;
+    flex-direction:row;
+    display: flex;
+}
+.activity_price_recommed{
+    font-size: 12px;
+    color: #a9a9a9;
+    justify-content:space-between;
+    display: flex;
+}
+.activtty_promise{
+    width: 93.6%;
+    height: 40px;
+    margin-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F5F5F5;
+    font-size: 12px;
+    justify-content:space-between;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+}
+.activity_original_price{
+    text-decoration: line-through;
+}
+.activtty_promise_img{
+    width: 16px;
+    height: 16px;
+}
+.select_item{
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px #e6e6fa solid;
+}
+.select_item_right{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+.select_item_img{
+    width:16px;
+    height:12px;
+    margin-left:4px;
+}

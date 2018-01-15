@@ -53,18 +53,23 @@
     justify-content:space-between;
     border-bottom:1px solid #e6e6fa;
 }
+.option_item_left{
+    align-items: center;
+    display: flex;
+}
 .option_item_img{
     width: 24px;
     height: 24px;
-    padding-top:10px;
 }
 .option_item_text{
     font-size:18px;
-    margin-top: 8px;
     margin-left: 8px;
+}
+.option_item_right{
+    align-items: center;
+    display: flex;
 }
 .option_item_icon{
     width: 22px;
     height: 16px;
-    padding-top:10px;
 }

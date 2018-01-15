@@ -2,12 +2,12 @@
 Page({
     data: {
         markers: [{
-            iconPath: "images/placeholder.png",
+            iconPath: "images/device_ic_safe_zone_location.png",
             id: 0,
             latitude: 23.099994,
             longitude: 113.324520,
-            width: 20,
-            height: 20
+            width: 30,
+            height: 30
         }],
         polyline: [{
             points: [{
@@ -23,7 +23,7 @@ Page({
         }],
         controls: [{
             id: 1,
-            iconPath: 'images/abc_btn_radio_to_on_mtrl_015.png',
+            iconPath: 'images/ic_map_location.png',
             position: {
                 left: 20,
                 top: 450,

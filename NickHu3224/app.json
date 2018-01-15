@@ -3,9 +3,9 @@
         "pages/main/main",
         "pages/map/map",
         "pages/my/my",
+        "pages/detail/detail",
         "pages/logs/logs",
-        "pages/index/index",
-        "pages/detail/detail"
+        "pages/index/index"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

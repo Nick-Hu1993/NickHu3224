@@ -13,7 +13,7 @@
 -->
 <view class='line'></view>
 <!--活动头信息-->
-<view class="title" id='detail_link' bindtap="toDetailPage">
+<view class="title">
   <view class="title_wrp">
     <view class='title_wrp_left'>
         <view class="title_item1">热门亲子剧</view>
@@ -26,7 +26,7 @@
   </view>
 </view>
 <!--活动列表信息1-->
-<view class="activity_list">
+<view class="activity_list" bindtap='toDetailPage'>
     <view class="content_wrp">
         <view class="img_wrp">
             <image class='activity_img' src="{{activity_imgUrl}}"></image>

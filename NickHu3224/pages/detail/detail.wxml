@@ -1,2 +1,57 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class='activity_banner'>
+    <image class='activity_background_img' src="{{activity_imgUrl}}"></image>
+</view>
+<image class='activity_img' src="{{activity_imgUrl}}"></image>
+<view class='activity_inform'>
+    <text class='activity_title'>{{activity_title}}</text>
+    <text class='activity_price'>￥60.00 - 128.00</text>
+    <view class='activity_price_recommed'>
+        <text class='activity_original_price'>原价:80 - 260</text>
+        <text class='activity_original_recommed'>8795人推荐</text>
+    </view>
+    <view class='activtty_promise'>
+        <view class='activtty_promise_item'>
+            <image class='activtty_promise_img' src="{{ic_ticket_explain}}"></image>
+            <text>100%真票</text>
+        </view>
+        <view class='activtty_promise_item'>
+            <image class='activtty_promise_img' src="{{ic_ticket_explain}}"></image>
+            <text>安全交易</text>
+        </view>
+        <view class='activtty_promise_item'>
+            <image class='activtty_promise_img' src="{{ic_ticket_explain}}"></image>
+            <text>无票赔付</text>
+        </view>
+        <view class='activtty_promise_item'>
+            <image class='activtty_promise_img' src="{{ic_ticket_explain}}"></image>
+            <text>比出实惠</text>
+        </view>
+    </view>
+</view>
+<view class='line'></view>
+<view class='select_item'>
+    <text class='select_item_name'>购票须知</text>
+    <view class='select_item_right'>
+        <text class='select_item_name_right'>购票前，请仔细阅读</text>
+        <image class='select_item_img' src="{{select_item_img}}"></image>
+    </view>
+</view>
+<view class='select_item'>
+    <text class='select_item_name'>选择场次/时间</text>
+    <view class='select_item_right'>
+        <text class='select_item_name_right'style="color: #FF5400;">2017.11.20 周一 19:30</text>
+        <image class='select_item_img' src="{{select_item_img}}"></image>
+    </view>
+</view>
+<view class='select_item'>
+    <text class='select_item_name'>演出场馆</text>
+    <view class='select_item_right'>
+        <text class='select_item_name_right'>深圳市少年宫剧场</text>
+        <image class='select_item_img' src="{{select_item_img}}"></image>
+    </view>
+</view>
+<view class='line'></view>
+<view class='select_item'>
+    <text class='select_item_name'>演出详情</text>
+</view>
